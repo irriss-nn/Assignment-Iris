@@ -280,7 +280,7 @@ export function Folder({ folder, openFile,copiedItem, setCopiedItem  }: FolderPr
           <FolderAddOutlined className={style.iconButton} title={`Create new folder in ${folder.name}`} onClick={createNewFolder} />
           <FileAddOutlined className={style.iconButton} title={`Create new file in ${folder.name}`} onClick={createNewFile} />
           <EditOutlined className={style.iconButton} title={`Rename Folder: ${folder.name}`} onClick={renameThisFolder} />
-          <SnippetsOutlined className={style.iconButton} title={`Paste Folder: ${folder.name}`} onClick={handlePaste} />
+          <SnippetsOutlined className={style.iconButton} title={`Paste copied item to Folder: ${folder.name}`} onClick={handlePaste} />
         </div>
       </div>
       <div className={style.child}>
