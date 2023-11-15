@@ -1,5 +1,9 @@
 # Assignment-Iris
 
+```bash
+cd mini-pro
+```
+
 ### To install dependencies, run:
 
 ```bash
